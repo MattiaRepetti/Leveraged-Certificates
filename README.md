@@ -15,14 +15,22 @@ This project provides:
 
 ## Key Findings
 
-| Asset | Leverage | Sharpe (OOS) | Profit Factor | Return | Max Drawdown | Trades |
-|-------|----------|-------------|---------------|--------|-------------|--------|
-| FTSE MIB | 5x | 4.00 | 3.02 | +11.25% | -1.17% | 41 |
-| FTSE MIB | 3x | 3.94 | 2.97 | +11.00% | -1.17% | 41 |
-| DAX | 3x | 2.28 | 1.79 | +6.48% | -3.83% | 33 |
+| # | Asset | Leverage | Sharpe (OOS) | Profit Factor | Return | Max Drawdown | Trades |
+|---|-------|----------|-------------|---------------|--------|-------------|--------|
+| 1 | DAX | 3x | 2.21 | 2.33 | +3.65% | -1.07% | 11 |
+| 2 | DAX | 7x | 2.12 | 2.25 | +3.53% | -1.17% | 11 |
+| 3 | DAX | 5x | 2.10 | 2.24 | +3.50% | -1.17% | 11 |
+| 4 | FTSE MIB | 3x | 1.93 | 1.95 | +3.43% | -1.29% | 19 |
+| 5 | FTSE MIB | 5x | 1.78 | 1.87 | +3.15% | -1.29% | 19 |
+| 6 | CAC 40 | 7x | 1.72 | 2.22 | +3.18% | -1.22% | 16 |
+| 7 | FTSE MIB | 7x | 1.47 | 1.70 | +2.55% | -1.29% | 19 |
+| 8 | CAC 40 | 5x | 1.45 | 2.12 | +2.98% | -1.26% | 16 |
+| 9 | CAC 40 | 3x | 0.80 | 1.77 | +2.07% | -1.27% | 16 |
+| 10 | EuroStoxx50 | 7x | -1.28 | 1.03 | +0.20% | -3.40% | 19 |
 
-- **Best combination**: FTSE MIB with 5x leverage
-- **Leverage 5x** is the optimal trade-off between return and decay
+- **Best combinations**: DAX 3x (highest Sharpe) and FTSE MIB 3x (most trades, best statistical significance)
+- **Lower leverage (3x) tends to outperform** higher leverage on risk-adjusted basis across most assets
+- **CAC 40** shows moderate edge at higher leverage levels (5x-7x)
 - **EuroStoxx 50 and S&P 500** do not show an edge with this strategy
 - **Single stocks** generally underperform indices due to idiosyncratic risk and gap risk
 
