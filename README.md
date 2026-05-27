@@ -215,23 +215,6 @@ backtest_strategy_v3.py      →  Validate across assets and leverage levels
 stock_screener.py            →  Explore single stock candidates
 ```
 
-## Setup
-
-```bash
-git clone https://github.com/YOUR_USERNAME/leveraged-certificates.git
-cd leveraged-certificates
-pip install -r requirements.txt
-```
-
-Run any script:
-```bash
-python leva_fissa_montecarlo.py
-python regime_scanner.py
-python backtest_strategy_v2.py
-python backtest_strategy_v3.py
-python stock_screener.py
-```
-
 ## Disclaimer
 
 This project is for **educational purposes only**. Leveraged certificates are high-risk financial instruments that can result in significant losses. Past performance does not guarantee future results. The author is not a financial advisor. Always do your own research and consider your risk tolerance before trading.
