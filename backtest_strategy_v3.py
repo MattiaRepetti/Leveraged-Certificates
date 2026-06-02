@@ -337,8 +337,8 @@ def calc_metrics(trades, initial_cap, final_cap):
 # SCARICA DATI
 # ============================================================
 print(f"\nScaricando dati per {len(TICKERS)} sottostanti...")
-end = datetime.now()
-start = end - timedelta(days=900)
+end = datetime(2026, 5, 27) #datetime.now()
+start = end - timedelta(days=1500) # days=900
 datasets = {}
 
 for name, ticker in TICKERS.items():

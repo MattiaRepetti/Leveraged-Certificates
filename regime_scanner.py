@@ -383,7 +383,7 @@ ax5.set_ylabel('MACD Hist', fontsize=11)
 ax5.set_xlabel('Data', fontsize=12)
 ax5.tick_params(labelsize=10)
 
-plt.savefig('/home/claude/regime_scanner.png', dpi=150,
+plt.savefig('./regime_scanner.png', dpi=150,
             bbox_inches='tight', facecolor='white')
 print(f"\n[Grafico salvato: regime_scanner.png]")
 
