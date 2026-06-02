@@ -7,7 +7,6 @@ Questo script simula 10.000 percorsi di prezzo per un indice (es. FTSE MIB)
 e calcola il valore corrispondente di un certificato a leva fissa,
 mostrando la distribuzione dei rendimenti e l'effetto del volatility decay.
 
-Autore: Mattia (percorso formativo)
 """
 
 import numpy as np
